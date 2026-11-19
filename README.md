@@ -12,6 +12,7 @@ Instructions for Running:
 3. In terminal, execute the file by running the command: ./chess_bitboard_examples
 
 ## Slides
+https://docs.google.com/presentation/d/1JBzD0bSAYI1KC0pN9zssGGE9mZfzWUq57nW8Cc7qDk0/edit?usp=sharing
 
 ## Additional Resources
 https://www.chess.com/terms - Reviewed Chess Rules

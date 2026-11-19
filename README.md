@@ -14,3 +14,10 @@ Instructions for Running:
 ## Slides
 
 ## Additional Resources
+https://www.chess.com/terms - Reviewed Chess Rules
+
+https://chessprogramming.org/ - Used to verify AI's information
+
+https://github.com/official-stockfish/Stockfish/tree/master - Referenced for real implementation
+
+https://stockfishchess.org/blog/2020/introducing-nnue-evaluation/ - Referenced to verify what NNUE is 

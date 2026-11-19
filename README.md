@@ -4,6 +4,12 @@ My topic for checkoff 3 is the application of bitwise operators in chess. I lear
 The most interesting discovery I made was that each type of piece has its own bitboard. I initially thought that the pieces would have their type, color, and location encoded in bits. However, chess pieces only have their location represented by the bitboard and the only way to identify the type and color of piece is by variable name. I also found the efficiency of bitboards to be interesting. It allows many chess mechanics like moving to be done in a few operations. For example, moving a pawn forward only requires you to clear the bit and set the bit in front of it. If you wanted to know the possible moves of all pawns, you can shift all of the bits by 8 to move them up one rank (if nothing is blocking the pawns). This ability to calculate possible moves for multiple pieces at once helps Stockfish go through millions of scenarios in an instant. 
 
 ## Code Example
+Try chess_bitboard_examples.c! It implements moving and capturing pieces, checks, checkmate, and En Passant. Running the file prints a menu to the terminal. Choosing one of the demonstrations will cause the program print the before and after boards to showcase how the bitwise operators work. 
+
+Instructions for Running:
+1. Download the code and add it to your IDE
+2. Run the command in terminal: gcc -std=c11 -O2 -Wall -Wextra chess_bitboard_examples.c -o chess_bitboard_examples
+3. In terminal, execute the file by running the command: ./chess_bitboard_examples
 
 ## Slides
 
